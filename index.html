@@ -20,52 +20,55 @@
 
 <body>
     <div class="modal is-hidden" data-modal>
-        <div class="inner-modal">
-            <button class="modal-button" data-modal-close>
-                <svg width="18" height="18">
+        <div class="modal__inner">
+            <button class="modal__button" data-modal-close>
+                <svg class="modal__icon" width="18" height="18">
                     <use href="./images/symbol-defs.svg#icon-close"></use>
                 </svg>
             </button>
-            <form name="request-service" class="modal-form">
-                <h3 class="modal-title">Leave your information and we'll call you back</h3>
-                <label class="form-item">
+            <form name="request-service" class="modal__form">
+                <h3 class="modal__title">Leave your information and we'll call you back</h3>
+                <label class="modal__form-item">
                     Name
-                    <input class="input-form" type="text" name="name">
-                    <svg class="svg-form" width="12" height="12">
+                    <input class="modal__input-form" type="text" name="name">
+                    <svg class="modal__svg-form" width="12" height="12">
                         <use href="./images/symbol-defs.svg#icon-person"></use>
                     </svg>
                 </label>
-                <label class="form-item">
+
+                <label class="modal__form-item">
                     Telephone
-                    <input class="input-form" type="text" name="name">
-                    <svg class="svg-form" width="13" height="13">
+                    <input class="modal__input-form" type="text" name="name">
+                    <svg class="modal__svg-form" width="13" height="13">
                         <use href="./images/symbol-defs.svg#icon-phone"></use>
                     </svg>
 
                 </label>
-                <label class="form-item">
+
+                <label class="modal__form-item">
                     E-mail
-                    <input class="input-form" type="text" name="name">
-                    <svg class="svg-form" width="15" height="12">
+                    <input class="modal__input-form" type="text" name="name">
+                    <svg class="modal__svg-form" width="15" height="12">
                         <use href="./images/symbol-defs.svg#icon-email"></use>
                     </svg>
 
                 </label>
-                <label class="form-item">
+                <label class="modal__form-item">
                     Comments
-                    <textarea class="textarea-form" name="comments" placeholder="Enter the text"></textarea>
+                    <textarea class="modal__textarea-form" name="comments" placeholder="Enter the text"></textarea>
                 </label>
+
                 <div class="checkbox-section">
-                    <label class="form-checkbox">
-                        <input class="input-checkbox" type="checkbox" name="agreement">
-                        <svg class="checkbox-icon" width="16" height="15">
+                    <label class="modal__form-checkbox">
+                        <input class="modal__input-checkbox" type="checkbox" name="agreement">
+                        <svg class="modal__checkbox-icon" width="16" height="15">
                             <use href="./images/symbol-defs.svg#icon-Vector"></use>
                         </svg>
                         I agree with the letter and accept the <a href="#">Terms and
                             Conditions</a>
                     </label>
                 </div>
-                <button class="form-button" type="Submit">Send</button>
+                <button class="modal__form-button" type="Submit">Send</button>
             </form>
         </div>
     </div>
@@ -396,13 +399,13 @@
                 </ul>
             </div>
             <div class="newsletter">
-                <form class="newsletter-form">
-                    <label class="newsletter-label">Subscribe to the newsletter
-                        <input type="email" name="email" placeholder="E-mail">
+                <form class="newsletter__form">
+                    <label class="newsletter__label">Subscribe to the newsletter
+                        <input type="email" name="email" class="newsletter__input" placeholder="E-mail">
                     </label>
                 </form>
-                <button class="newsletter-button" type="Submit">Subscribe
-                    <svg class="icon-send" width="24" height="24">
+                <button class="newsletter__button" type="Submit">Subscribe
+                    <svg class="icon__send" width="24" height="24">
                         <use href="images/symbol-defs.svg#icon-send"></use>
                     </svg>
                 </button>
