@@ -13,11 +13,11 @@
   &__list {
     display: flex;
     gap: 30px;
-    padding-right: 30px;
   }
 }
 
 .our-team__list {
+  padding-right: 30px;
   .our-team__list-item {
     display: flex;
     flex-direction: column;
