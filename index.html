@@ -13,7 +13,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="css/main.min.css" />
     <title>Studio</title>
 </head>
 <!-- Studio Page -->
@@ -73,29 +74,32 @@
         </div>
     </div>
     <!-- Header -->
-    <header class="header-section">
+    <header class="header">
         <div class="container">
             <nav class="header-nav">
                 <div class="header-nav__container">
                     <a class="header-nav__logo" href="index.html">Studio</a>
                     <ul class="header-nav__list unstyled-list">
-                        <li class="header-nav__item"><a class="nav__link current__page" href="index.html">Studio</a>
+                        <li class="header-nav__item"><a class="header-nav__link current__page"
+                                href="index.html">Studio</a>
                         </li>
-                        <li class="header-nav__item"><a class="nav__link" href="portfolio.html">Portfolio</a>
+                        <li class="header-nav__item"><a class="header-nav__link" href="portfolio.html">Portfolio</a>
                         </li>
-                        <li class="header-nav__item"><a class="nav__link" href="Contacts.html">Contacts</a>
+                        <li class="header-nav__item"><a class="header-nav__link" href="Contacts.html">Contacts</a>
                         </li>
                     </ul>
                 </div>
-                <ul class="contacts unstyled-list">
-                    <li class="contacts-item__mail"><a class="link" href="mailto:info@devstudio.com">
-                            <svg class="contacts-item__svg" width="16" height="12">
+                <ul class="header-nav__contacts unstyled-list">
+                    <li class="header-nav__contacts-item"><a class="header-nav__contacts-link"
+                            href="mailto:info@devstudio.com">
+                            <svg class="header-nav__contacts-svg" width="16" height="12">
                                 <use href="images/symbol-defs.svg#icon-envelope"></use>
                             </svg>
                             info@devstudio.com</a>
                     </li>
-                    <li class="contacts-item__phone"><a class="link" href="tel:+1212-772-4150">
-                            <svg class="contacts-item__svg" width="16" height="12">
+                    <li class="header-nav__contacts-item"><a class="header-nav__contacts-link"
+                            href="tel:+1212-772-4150">
+                            <svg class="header-nav__contacts-svg" width="16" height="12">
                                 <use href="images/symbol-defs.svg#icon-smartphone"></use>
                             </svg>
                             +1212-772-4150</a>
@@ -124,8 +128,9 @@
                             </svg>
                         </div>
                         <div class="second-section__details">
-                            <h3 class="details__title">ATTENTION TO DETAILS</h3>
-                            <p class="details__paragraph">We go into all the details and processes<br> of your
+                            <h3 class="second-section__details-title">ATTENTION TO DETAILS</h3>
+                            <p class="second-section__details-paragraph">We go into all the details and processes<br>
+                                of your
                                 business
                                 to develop a <br>customized solution.</p>
                         </div>
@@ -137,8 +142,8 @@
                             </svg>
                         </div>
                         <div class="second-section__details">
-                            <h3 class="details__title">Punctuality</h3>
-                            <p class="details__paragraph">With us, you can feel safe and secure.<br> An
+                            <h3 class="second-section__details-title">Punctuality</h3>
+                            <p class="second-section__details-paragraph">With us, you can feel safe and secure.<br> An
                                 important
                                 principle of the company:<br> respect your time and deadlines.</p>
                         </div>
@@ -150,8 +155,9 @@
                             </svg>
                         </div>
                         <div class="second-section__details">
-                            <h3 class="details__title">PLANNING</h3>
-                            <p class="details__paragraph">You will be able to observe and <br>participate in
+                            <h3 class="second-section__details-title">PLANNING</h3>
+                            <p class="second-section__details-paragraph">You will be able to observe and <br>participate
+                                in
                                 every
                                 phase of solution <br>development and implementation.</p>
                         </div>
@@ -163,8 +169,9 @@
                             </svg>
                         </div>
                         <div class="second-section__details">
-                            <h3 class="details__title">MODERN TECHNOLOGIES</h3>
-                            <p class=details__paragraph>We use innovative tools to solve<br>assigned tasks.It's
+                            <h3 class="second-section__details-title">MODERN TECHNOLOGIES</h3>
+                            <p class="second-section__details-paragraph">We use innovative tools to solve<br>assigned
+                                tasks.It's
                                 time
                                 to simplify work<br> processes.</p>
                         </div>
@@ -177,16 +184,13 @@
             <div class="container">
                 <h2 class="third-section__title">What we do</h2>
                 <ul class="third-section__list unstyled-list">
-                    <li class="third-section__item"><img class="what-we-do-images" src="./images/img1.jpg" alt="Coding"
-                            height="294">
+                    <li class="third-section__item"><img src="./images/img1.jpg" alt="Coding" height="294">
                         <p class="third-section__label">DESKTOP APPS</p>
                     </li>
-                    <li class="third-section__item"><img class="what-we-do-images" src="./images/img2.jpg"
-                            alt="Structure" height="294">
+                    <li class="third-section__item"><img src="./images/img2.jpg" alt="Structure" height="294">
                         <p class="third-section__label">Mobile APPS</p>
                     </li>
-                    <li class="third-section__item"><img class="what-we-do-images" src="./images/img3.jpg" alt="Styles"
-                            height="294">
+                    <li class="third-section__item"><img src="./images/img3.jpg" alt="Styles" height="294">
                         <p class="third-section__label">DESIGN SOLUTIONS</p>
                     </li>
                 </ul>
@@ -204,7 +208,7 @@
                             <p class="members__job">Product Designer</p>
                         </div>
                         <div class="social-media">
-                            <ul class="social-media__list unstyled-list">
+                            <ul class="social-media__list">
                                 <li class="social-media__list-item"><a href="#">
                                         <svg width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
@@ -235,7 +239,7 @@
                             <p class="members__job">Frontend Developer</p>
                         </div>
                         <div class="social-media">
-                            <ul class="unstyled-list">
+                            <ul class="social-media__list">
                                 <li class="social-media__list-item"><a href="#">
                                         <svg width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
@@ -265,7 +269,7 @@
                             <p class="members__job">Marketing</p>
                         </div>
                         <div class="social-media">
-                            <ul class="unstyled-list">
+                            <ul class="social-media__list">
                                 <li class="social-media__list-item"><a href="#">
                                         <svg width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
@@ -295,7 +299,7 @@
                             <p class="members__job">UI Designer</p>
                         </div>
                         <div class="social-media">
-                            <ul class="unstyled-list">
+                            <ul class="social-media__list">
                                 <li class="social-media__list-item"><a href="#">
                                         <svg width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
@@ -346,7 +350,7 @@
                             </svg>
                         </a></li>
                     <li class="costumers__item"><a href="#">
-                            <svg class="costumers__svg width=" 106" height="60">
+                            <svg class="costumers__svg" width="106" height="60">
                                 <use href="./images/symbol-defs.svg#icon-logo5"></use>
                             </svg>
                         </a></li>
@@ -361,19 +365,22 @@
     </main>
     <!-- Footer -->
     <footer class="footer-section section">
-        <div class="container footer-container">
+        <div class="container footer__container">
             <div>
                 <a class="footer-logo" href="Studio.html">Web</a>
                 <address class="footer-address">
                     <ul class="footer-address__list unstyled-list">
-                        <li><a class="footer-address__city" href="address">695 Park Ave NY 10065, USA.</a></li>
-                        <li><a class="footer-address__email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <li class="footer-address__list-item"><a class="footer-address__list-city" href="address">695
+                                Park Ave NY 10065, USA.</a></li>
+                        <li class="footer-address__list-item"><a class="footer-address__list-email"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li><a class="footer-address__phone" href="tel:+1212-772-4150">+1212-772-4150</a></li>
+                        <li class="footer-address__list-item"><a class="footer-address__list-phone"
+                                href="tel:+1212-772-4150">+1212-772-4150</a></li>
                     </ul>
                 </address>
             </div>
-            <div class="find-us-on">
+            <div class="find-us">
                 <h3>Find us on</h3>
                 <ul class="find-us__list unstyled-list">
                     <li class="find-us__item"><a href="#">
