@@ -18,6 +18,13 @@
         cursor: pointer;
         font-family: var(--font-family-Roboto);
         padding: 6px 22px;
+        &:hover,
+        &:focus {
+          background: var(--color-hover-focus);
+          color: #fff;
+          box-shadow: var(--box-shadow-btns);
+          transition: var(--transition-hover-focus);
+        }
       }
     }
   }

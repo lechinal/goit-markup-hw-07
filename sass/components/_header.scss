@@ -97,10 +97,8 @@
 .header-nav__contacts-item {
   .header-nav__contacts-svg {
     margin-right: 10px;
-    color: #757575;
-    &:hover {
-      fill: var(--color-hover-focus);
-    }
+    fill: #757575;
+    &:hover,
     &:focus {
       fill: var(--color-hover-focus);
     }
